@@ -9,7 +9,7 @@ layout = [
     [sg.Text('VERIFICATION      '), sg.Input(key='VERIFICATION')],
     [sg.Text('MONITORING        '), sg.Input(key='MONITORING')],
     [sg.Text('COMPLETE          '), sg.Input(key='COMPLETE')],
-    [sg.Text('LINK                '), sg.Input(key='LINK    ')],
+    [sg.Text('LINK                     '), sg.Input(key='LINK    ')],
     [sg.Checkbox('Salvar Dados?')],
     [sg.Button('ENTRAR')]
 ]
