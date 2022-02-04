@@ -13,18 +13,11 @@ layout = [
     [sg.Checkbox('Salvar Dados?')],
     [sg.Button('ENTRAR')]
 ]
-
 janela = sg.Window('WFM', layout)
-
-
 Actual_Time = time.strftime("%I:%M:%S")
-
-
-
 while True:
     eventos, valores = janela.read()
     if eventos == sg.WINDOW_CLOSED:
         break
     if eventos == 'ENTRAR':
-        
-            print('DEU BOA')
+        print('OK')
